@@ -906,3 +906,7 @@ Responsive media queries
     padding: auto;
     position:absolute;
 }
+
+a, a:hover {
+  color:  #f5941f;
+}
