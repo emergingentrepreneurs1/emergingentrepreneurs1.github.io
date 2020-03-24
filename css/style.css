@@ -6,8 +6,8 @@
 */
 
 body {
-  line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
+  line-height: 2.0;
+  font-family: Arial;
   color: #67696c;
   font-size: 16px;
   font-weight: 300;
@@ -34,7 +34,7 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+ font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 
@@ -152,12 +152,12 @@ HEADER
 }
 
 .logo-dec {
-  color: #be9e21;
+  color: #f5941f;
 }
 
 .navbar-default .navbar-brand {
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -186,13 +186,13 @@ HEADER
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #be9e21;
+  color: #f5941f;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
-  color: #be9e21;
+  color: #f5941f;
 }
 
 .banner-info {
@@ -238,18 +238,26 @@ h2.bnr-sub-title {
   transition: all 0.3s;
 }
 
+.btn-primary {
+  background-color: #0578bf;
+}
+
+.btn-primary:active {
+  background-color: #0578bf;
+}
+
 .btn-download {
-  background-color: #be9e21;
+  background-color: #f5941f;
 }
 
 .btn-more, .btn-more:focus {
   margin-left: 15px;
-  border: 1px solid #be9e21;
-  color: #be9e21;
+  border: 1px solid #f5941f;
+  color: #f5941f;
 }
 
 .btn-more:hover {
-  background: #be9e21;
+  background: #f5941f;
   color: #fff;
 }
 
@@ -288,7 +296,7 @@ features
   border-top: 0px;
   height: 3px;
   width: 40px;
-  background-color: #BE9E21;
+  background-color: #f5941f;
 }
 
 .wrap-item h3 {
@@ -385,7 +393,7 @@ ul.service-list li i {
 }
 
 .service-item a {
-  color: #be9e21;
+  color: #f5941f;
 }
 
 .mr-btn-15 {
@@ -450,7 +458,7 @@ ul.service-list li i {
   width: 100%;
   height: 100%;
   padding: 59px 30px;
-  background-color: #BE9E21;
+  background-color: #f5941f;
   backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -552,6 +560,15 @@ TESTIMONIAL
   right: 30px;
 }
 
+.testimonial-img {
+  border-radius: 0.5cm;
+  
+  height: 40vw;
+  max-height: 400px;
+  width: auto;
+  margin: auto;
+}
+
 /***********************************
 ************************************
 Blog
@@ -632,9 +649,9 @@ contact
 .btn-submit, .btn-submit:hover, .btn-submit:focus {
   background-color: transparent;
   border-radius: 60px;
-  color: #be9e21;
+  color: #f5941f;
   font-weight: 400;
-  border: 1px solid #be9e21;
+  border: 1px solid #f5941f;
   font-size: 14px;
   padding: 6px 20px;
 }
@@ -642,12 +659,12 @@ contact
 .form-control {
   background-color: transparent;
   border-radius: 0px;
-  color: #be9e21 !important;
-  border-color: #be9e21;
+  color: #f5941f !important;
+  border-color: #f5941f;
 }
 
 .form-control:focus {
-  border-color: #be9e21;
+  border-color: #f5941f;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
@@ -694,7 +711,7 @@ contact
 }
 
 .loction-info p i {
-  color: #be9e21;
+  color: #f5941f;
 }
 
 /***********************************
@@ -714,7 +731,7 @@ contact
   width: 42px;
   height: 42px;
   color: #ffffff;
-  background: #be9e21;
+  background: #f5941f;
   font-size: 14px;
   line-height: 42px;
   text-align: center;
@@ -728,7 +745,7 @@ contact
 }
 
 #footer a {
-  color: #be9e21;
+  color: #f5941f;
   font-weight: 400;
 }
 
@@ -770,7 +787,10 @@ cta
   transition: all 0.5s ease-in 0s;
 }
 
-
+.nav-img-logo {
+  width: 10%;
+  position: absolute;
+}
 
 /***********************************
 ************************************
@@ -856,4 +876,33 @@ Responsive media queries
   }
 }
 
+.my-align-center {
+  text-align: center;
+}
 
+.width-100 {
+  width: 100%;
+}
+
+.normal-whitespace {
+  white-space: normal;
+}
+
+.my-padding-top-bottom {
+  padding: 0.5cm 0;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:10%;
+    top:0;
+    height:80%;
+    width:80%;
+    padding: auto;
+    position:absolute;
+}
