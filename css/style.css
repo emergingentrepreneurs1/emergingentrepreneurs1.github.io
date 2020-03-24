@@ -174,7 +174,7 @@ HEADER
 }
 
 .navbar-default .navbar-nav>li>a {
-  padding: 5px 10px;
+  padding: 20px 10px;
   font-size: 14px;
   line-height: 54px;
   font-weight: 400;
@@ -789,7 +789,9 @@ cta
 
 .nav-img-logo {
   width: 10%;
+  min-width: 2.5cm;
   position: absolute;
+  padding-left: 0.5cm;
 }
 
 /***********************************
