@@ -240,11 +240,9 @@ h2.bnr-sub-title {
 
 .btn-primary {
   background-color: #0578bf;
+  border-radius: 0;
 }
 
-.btn-primary:active {
-  background-color: #0578bf;
-}
 
 .btn-download {
   background-color: #f5941f;
@@ -911,4 +909,9 @@ Responsive media queries
 
 a, a:hover {
   color:  #f5941f;
+}
+
+.btn-primary:hover {
+  background-color: #f5941f;
+  border-color: #f5941f;
 }
